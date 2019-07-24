@@ -17,7 +17,17 @@ import Foundation
 
 
 
+// TODO: Write solution here
+
+
+
 
 //Write a switch statement that takes a tuple containing a String and an Int.  The String is a name, and the Int is an age. Use the same cases that you used above, and binding with let syntax, to assign the the name, followed by the life stage, to a String constant. For example, for the author of these challenges, you'd assign "Matt is an adult." to your constant.
+
+
+
+
+// TODO: Write solution here
+
 
 //: [Next](@next)
