@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Switch'/>
+        <page name='Tuples'/>
+        <page name='Methods+Functions'/>
+        <page name='Struct'/>
+        <page name='Class'/>
+        <page name='Closure'/>
+    </pages>
+</playground>
