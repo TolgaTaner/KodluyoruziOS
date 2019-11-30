@@ -1,0 +1,6 @@
+framework module Pods_BDD_Example {
+  umbrella header "Pods-BDD-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y8o-2B-5Q2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Product Page View Controller-->
+        <scene sceneID="JOd-B6-g4j">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="y8o-2B-5Q2" customClass="ProductPageViewController" customModule="VisitorPatternExample" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tFc-vK-5h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="89"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="uSA-BG-fUP">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PKG-9e-8Ef" customClass="DetailViewController" customModule="VisitorPatternExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YtL-aO-paM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHl-hM-6op">
+                                <rect key="frame" x="20" y="40" width="335" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2y-r7-emf">
+                                <rect key="frame" x="0.0" y="60" width="375" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uPr-AP-OX4" firstAttribute="trailing" secondItem="mHl-hM-6op" secondAttribute="trailing" constant="20" id="Akz-sz-hPy"/>
+                            <constraint firstItem="mHl-hM-6op" firstAttribute="top" secondItem="uPr-AP-OX4" secondAttribute="top" constant="20" id="M8N-6w-bvH"/>
+                            <constraint firstItem="q2y-r7-emf" firstAttribute="leading" secondItem="uPr-AP-OX4" secondAttribute="leading" id="RCa-0y-k0C"/>
+                            <constraint firstItem="mHl-hM-6op" firstAttribute="leading" secondItem="uPr-AP-OX4" secondAttribute="leading" constant="20" id="V70-tM-thq"/>
+                            <constraint firstItem="q2y-r7-emf" firstAttribute="top" secondItem="mHl-hM-6op" secondAttribute="bottom" constant="20" id="XKp-g4-UGK"/>
+                            <constraint firstItem="uPr-AP-OX4" firstAttribute="trailing" secondItem="q2y-r7-emf" secondAttribute="trailing" id="s7O-74-Osl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uPr-AP-OX4"/>
+                    </view>
+                    <connections>
+                        <outlet property="productNameLabel" destination="mHl-hM-6op" id="EM6-zG-EAW"/>
+                        <outlet property="productPriceLabel" destination="q2y-r7-emf" id="x6F-IO-PcI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dd1-iD-Ry7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="89"/>
+        </scene>
+    </scenes>
+</document>

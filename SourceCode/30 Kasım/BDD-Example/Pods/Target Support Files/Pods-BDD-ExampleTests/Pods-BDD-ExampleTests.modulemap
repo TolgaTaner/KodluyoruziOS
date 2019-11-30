@@ -1,0 +1,6 @@
+module Pods_BDD_ExampleTests {
+  umbrella header "Pods-BDD-ExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

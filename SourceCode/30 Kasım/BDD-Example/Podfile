@@ -1,0 +1,17 @@
+
+target 'BDD-Example' do
+
+  use_frameworks!
+
+end
+
+
+def testing_pods
+    pod 'Quick'
+    pod 'Nimble'
+end
+
+target 'BDD-ExampleTests' do
+    testing_pods
+end
+
